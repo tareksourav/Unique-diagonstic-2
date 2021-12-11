@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import Home from './pages/Home/Home/Home';
+import PageNotFound from './pages/PageNotFound/PageNotFound';
+import Header from './Shared/Header/Header';
+import Footer from './Shared/Footer/Footer';
+import DoctorDetail from './pages/Home/Doctors/DoctorDetail/DoctorDetail';
+import Login from './pages/Login/Login';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AuthProvider>
+        <Header></Header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="login" element={<Login />} />
+
+          <Route path=":doctorId" element={
+            <PrivateRoute>
+              <DoctorDetail />
+            </PrivateRoute>
+          }
+          />
+
+
+          {/* <Route path="login" element={<Login />} /> */}
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+        <Footer></Footer>
+      </AuthProvider>
     </div>
+
   );
 }
 

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Osman Arabi",
+        "img": "https://i.ibb.co/7Sy8RgF/d1.png",
+        "speciality": "General & Laparoscopic Surgeon",
+        "qualifications": "MBBS, FCPS(Surgery)",
+        "designation": "Assistant Professor",
+        "description": "To serve the humanity as a whole with this noble vision the Ibn Sina Trust started its journey in June 1980. The trust has agreed upon to provide health care service to the people of Bangladesh with affordable cost.",
+        "contact": "01770342423"
+    },
+    {
+        "id": 2,
+        "name": "Mick Nelson",
+        "img": "https://i.ibb.co/7nHXQRB/d2.png",
+        "speciality": "Cardio Vascular",
+        "qualifications": "MBBS, FCPS(Surgery)",
+        "designation": "Assistant Professor",
+        "description": "To serve the humanity as a whole with this noble vision the Ibn Sina Trust started its journey in June 1980. The trust has agreed upon to provide health care service to the people of Bangladesh with affordable cost.",
+        "contact": "017703424594"
+    },
+    {
+        "id": 3,
+        "name": "Nick Jhonas",
+        "img": "https://i.ibb.co/SRNTvnW/d3.png",
+        "speciality": "Laparoscopic Surgeon",
+        "qualifications": "MBBS, FCPS(Surgery)",
+        "designation": "Department Head",
+        "description": "To serve the humanity as a whole with this noble vision the Ibn Sina Trust started its journey in June 1980. The trust has agreed upon to provide health care service to the people of Bangladesh with affordable cost.",
+        "contact": "01770342946"
+    },
+    {
+        "id": 4,
+        "name": "Jhonson",
+        "img": "https://i.ibb.co/3NWsBXs/d7.png",
+        "speciality": "Cardio Vascular",
+        "qualifications": "MBBS(Surgery)",
+        "designation": "Assistant Professor",
+        "description": "To serve the humanity as a whole with this noble vision the Ibn Sina Trust started its journey in June 1980. The trust has agreed upon to provide health care service to the people of Bangladesh with affordable cost.",
+        "contact": "0184646464"
+    },
+    {
+        "id": 5,
+        "name": "Hrdy",
+        "img": "https://i.ibb.co/KN0v44F/d6.png",
+        "speciality": "Laparoscopic Surgeon",
+        "qualifications": "FCPS(Surgery)",
+        "designation": "Assistant Professor",
+        "description": "To serve the humanity as a whole with this noble vision the Ibn Sina Trust started its journey in June 1980. The trust has agreed upon to provide health care service to the people of Bangladesh with affordable cost.",
+        "contact": "01464414645"
+    },
+    {
+        "id": 6,
+        "name": "Rihan ali",
+        "img": "https://i.ibb.co/vYWwNZD/d8.png",
+        "speciality": "Cardio Vascular",
+        "qualifications": "MBBS, FCPS(Surgery)",
+        "designation": "Assistant Professor",
+        "description": "To serve the humanity as a whole with this noble vision the Ibn Sina Trust started its journey in June 1980. The trust has agreed upon to provide health care service to the people of Bangladesh with affordable cost.",
+        "contact": "01770855546"
+    }
+]
